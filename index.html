@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor" id="tarjetas">
+        <div class="tarjeta">
+            <h1>Tarjeta 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a target="_blank" href="https://google.com">Deleniti</a> sint temporibus blanditiis? Numquam ratione sequi ad. Expedita odio quis commodi et alias maiores! Excepturi nam quibusdam eligendi ipsa doloribus est.</p>
+            <img src="https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asjnasdhujnasd">
+        </div>
+        <div class="tarjeta">
+            <h1>Tarjeta 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint temporibus blanditiis? Numquam ratione sequi ad. Expedita odio quis commodi et alias maiores! Excepturi nam quibusdam eligendi ipsa doloribus est.</p>
+            <img src="https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asjnasdhujnasd">
+        </div>
+        <div class="tarjeta" id="testing">
+            <h1>Tarjeta 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint temporibus blanditiis? Numquam ratione sequi ad. Expedita odio quis commodi et alias maiores! Excepturi nam quibusdam eligendi ipsa doloribus est.</p>
+            <img src="https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asjnasdhujnasd">
+        </div>
+    </div>
+    <div class="contenedor" id="formulario">
+        <form class="registro">
+            <h2>Registro</h2>
+            <label>EMail</label>
+            <input type="email">
+            <label>Password</label>
+            <input type="password">
+            <button class="submit">Sign In</button>
+        </form>
+    </div>
+
+
+
+    <script>
+        document.getElementsByTagName("form")[0].addEventListener("submit", e => e.preventDefault());
+    </script>
+</body>
+</html>
